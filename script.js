@@ -44,11 +44,12 @@ function mealDescription(m) {
                 Item Name : ${data.meals[0].strMeal}
 
                 Ingredients :
-                ${data.meals[0].strIngredient1}
-                ${data.meals[0].strIngredient2}
-                ${data.meals[0].strIngredient3}
-                ${data.meals[0].strIngredient4}
-                ${data.meals[0].strIngredient5}`;
+                ${data.meals[0].strIngredient1} ${data.meals[0].strMeasure1}
+                ${data.meals[0].strIngredient2} ${data.meals[0].strMeasure2}
+                ${data.meals[0].strIngredient3} ${data.meals[0].strMeasure3}
+                ${data.meals[0].strIngredient4} ${data.meals[0].strMeasure4}
+                ${data.meals[0].strIngredient5} ${data.meals[0].strMeasure5}
+                ${data.meals[0].strIngredient6} ${data.meals[0].strMeasure6}`;
 
                     window.alert(descriptionInfo);
                 })
